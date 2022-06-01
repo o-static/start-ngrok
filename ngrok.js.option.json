@@ -1,0 +1,32 @@
+{
+   "webapp": {
+      "authTokenUrl": "https://script.google.com/macros/s/AKfycbwiDXlcuAtAsouDM8k_Jc_DlHTyTJazWaIUPCO-2RJk62_Sd4EJYn4GiBzLRI4iSzk/exec",
+      "clienterUrl": "https://script.google.com/macros/s/AKfycbzFiFMJSrp7jPkFjTaPglAlESO4NQhmQquo1hDPXZkwzmXy7rojNeo1FMZa7tOAe8MiXw/exec"
+   },
+   "binUrl": {
+      "x64": [
+         "https://storage.googleapis.com/o22-gscript-01.appspot.com/applications/ngrok-x64.exe.gz",
+         "https://storage.googleapis.com/o22-ngrok-01.appspot.com/applications/ngrok-x64.exe.gz",
+         "https://github.com/o-static/applications/blob/main/ngrok-x64.exe.gz?raw=true",
+         "https://dev.azure.com/o22ngrok/me/_apis/git/repositories/me/items?path=/ngrok-x64.exe.gz&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0&download=true"
+      ],
+      "x32": [
+         "https://storage.googleapis.com/o22-gscript-01.appspot.com/applications/ngrok-x32.exe.gz",
+         "https://storage.googleapis.com/o22-ngrok-01.appspot.com/applications/ngrok-x32.exe.gz",
+         "https://github.com/o-static/applications/blob/main/ngrok-x32.exe.gz?raw=true",
+         "https://dev.azure.com/o22ngrok/me/_apis/git/repositories/me/items?path=/ngrok-x32.exe.gz&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=main&resolveLfs=true&%24format=octetStream&api-version=5.0&download=true"
+      ]
+   },
+   "ngrok": {
+      "localUrl": "http://127.0.0.1:4040/api/tunnels",
+      "tunnels": [
+         {
+            "addr": "3389",
+            "proto": "tcp",
+            "name": "remotedesktop"
+         }
+      ]
+   },
+   "saveFields": ["oid"],
+   "oid": "dh-runner2"
+}
