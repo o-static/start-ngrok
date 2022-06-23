@@ -21,12 +21,12 @@
       "localUrl": "http://127.0.0.1:4040/api/tunnels",
       "tunnels": [
          {
-            "addr": "3389",
+            "addr": "5432",
             "proto": "tcp",
-            "name": "remotedesktop"
+            "name": "postgresql"
          }
       ]
    },
    "saveFields": ["oid"],
-   "oid": "ohau"
+   "oid": "dh-postgresql"
 }

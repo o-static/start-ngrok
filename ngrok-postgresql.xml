@@ -1,0 +1,13 @@
+<service>
+  <id>oth-ngrokpostgresql</id>
+  <name>oth-NgrokPostgreSQL</name>
+  <description>Remote PostgreSQL by Ngrok</description>
+  <executable>D:\OTH_NODEJS\ngrok-postgresql\node.exe</executable>
+  <arguments>D:\OTH_NODEJS\ngrok-postgresql\ngrok.js</arguments>
+  <workingdirectory>D:\OTH_NODEJS\ngrok-postgresql</workingdirectory>
+  <startmode>Automatic</startmode>
+  <log mode="append"></log>
+  <onfailure action="restart" delay="10 sec"/>
+  <onfailure action="restart" delay="20 sec"/>
+  <logpath>D:\OTH_NODEJS\ngrok-postgresql\log</logpath>
+</service>
